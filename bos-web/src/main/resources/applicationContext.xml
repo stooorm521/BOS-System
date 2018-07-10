@@ -21,7 +21,7 @@
 		<property name="driverClass" value="${jdbc.driverClass}"/>
 		<property name="jdbcUrl" value="${jdbc.jdbcUrl}"/>
 		<property name="user" value="${jdbc.user}"/>
-		<property name="password" value="${jdbc.password}"/>
+		<property name="password" value="2w2w2w2w"/>
 	</bean>
 	
 	<!-- 配置LocalSessionFactoryBean，spring提供的用于整合hibernate的工厂bean -->
