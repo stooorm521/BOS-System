@@ -52,4 +52,5 @@ public class BaseDaoImpl<T> extends HibernateDaoSupport implements IBaseDao<T> {
 		String hql = "FROM " + entityClass.getSimpleName();
 		return (List<T>) this.getHibernateTemplate().find(hql);
 	}
+	public void executeUpdate(String queryName,Object...objects){};
 }
